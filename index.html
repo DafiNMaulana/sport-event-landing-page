@@ -1,0 +1,138 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Pekan olahraga SMK Nesapa</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-none">
+      <div class="container">
+        <a class="navbar-brand fs-4" href="#">
+          SMK BISA
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active fs-6 me-1" aria-current="page" href="#" id="search"><i class="bi bi-search"></i></a>
+            </li>
+
+            <input type="search" name="" class="d-lg-none d-sm-block mt-2 mb-2 px-2 rounded-pill input-2" placeholder="Cari cabang olahraguy" id="input-2">
+            
+            <input type="search" class="d-lg-block d-sm-none mt-2 mb-2 px-2 rounded-pill input" placeholder="Cari cabang olahraga" id="input">
+
+            <li class="nav-item">
+              <a class="nav-link active fs-6 me-2" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6 me-2" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6 me-2" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6 me-2" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- hero -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="jumbotron text-center">
+            <h1 class="display-4 text-light shadow">Pekan Olahraga SMK Nesapa</h1>
+            <p class="lead text-light">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Id quo veritatis, aspernatur aut, hic iusto doloremque, est tempora, eligendi consequuntur perspiciatis. Architecto amet est suscipit ipsum. Accusamus repellendus tenetur eveniet.</p>
+            <a class="btn btn-outline-light rounded-pill" href="#" role="button">Pelajari Lebih</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir hero -->
+
+    <!-- card -->
+    <div class="container">
+      <div class="row mt-4 d-flex justify-content-center">
+        <div class="col-lg-4 col-md-5 col-sm-6 col-9 col-xl-3 mb-4">
+          <div class="card bg-none" style="width: 15rem;">
+            <img src="/img/card/futsal.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Futsal</h5>
+              <a href="#" class="btn btn-outline-light">DAFTAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-6 col-9 col-xl-3 mb-4">
+          <div class="card" style="width: 15rem;">
+            <img src="/img/card/voli.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Voli</h5>
+              <a href="#" class="btn btn-outline-light">DAFTAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-6 col-9 col-xl-3 mb-4">
+          <div class="card" style="width: 15rem;">
+            <img src="/img/card/basket.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Basket</h5>
+              <a href="#" class="btn btn-outline-light">DAFTAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-6 col-9 col-xl-3 mb-4">
+          <div class="card" style="width: 15rem;">
+            <img src="/img/card/ml.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">E-Sport</h5>
+              <p class="card-text">E-Sport Mobile legends minimal 5 pemain utama, 5 orang pemain cadangan menangkan Rp.2.500.000,-</p>
+              <a href="#" class="btn btn-outline-light">DAFTAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir card -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+      document.getElementById('search').addEventListener('click', function() {
+       document.getElementById('input').style.width = '200px';
+       document.getElementById('input').style.opacity = '1';
+       document.getElementById('input').style.margin = '0 10px';
+       document.getElementById('input').style.cursor = 'text';
+     });
+      document.getElementById('search').addEventListener('click', function() {
+       document.getElementById('input-2').style.width = '200px';
+       document.getElementById('input-2').style.opacity = '1';
+       document.getElementById('input-2').style.margin = '0 10px';
+       document.getElementById('input-2').style.cursor = 'text';
+     });
+
+   </script>
+
+ </body>
+ </html>

@@ -1,0 +1,69 @@
+body {
+	background-image: url(/img/2.jpg);
+	background-size: cover;
+}
+
+/*navbar*/
+.bg-daftar {
+	border: 2px solid white;
+	font-size: 15px;
+	padding: 12px 18px;
+	transition: .5s;
+	color: white;
+}
+.bg-daftar:hover {
+	background-color: #fff;
+	color: black;
+}
+.input, .input-2 {
+	border: 1px solid white;
+	outline: none;
+	background: none;
+	color: white;
+	width: 0;
+	opacity: 0;
+	transition: .5s;
+}
+
+@media (max-width: 990px) {
+	.input-2 {
+		position: absolute;
+		top: 50px;
+		left: 150px;
+	}
+}
+
+@media (max-width: 580px) {
+	.input {
+		display: none !important;
+	}
+	.input-2 {
+		width: 0;
+		opacity: 0;
+		position: absolute;
+		top: 48px;
+		left: 20px;
+	}
+	
+}
+/*akhir navbar*/
+
+
+/*jumbotron*/
+.lead, .jumbotron h1 {
+	text-shadow: 1px 1px 1px black;
+}
+/*akhir jumbotron*/
+
+/*card*/
+.card {
+	background: none;
+	color: white;
+	/*text-shadow: 1px 1px 1px black;*/
+	/*border: 1px solid white;*/
+	box-shadow: 2px 3px 7px -2px white;
+}
+.card img {
+	/*border: 1px solid white;*/
+}
+/*akhir card*/
