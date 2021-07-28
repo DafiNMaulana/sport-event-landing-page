@@ -28,8 +28,8 @@ body {
 @media (max-width: 990px) {
 	.input-2 {
 		position: absolute;
-		top: 50px;
-		left: 150px;
+		top: 60px;
+		left: 60px;
 	}
 }
 
@@ -41,8 +41,8 @@ body {
 		width: 0;
 		opacity: 0;
 		position: absolute;
-		top: 48px;
-		left: 20px;
+		top: 60px;
+		left: 37px;
 	}
 	
 }
@@ -67,3 +67,13 @@ body {
 	/*border: 1px solid white;*/
 }
 /*akhir card*/
+
+/*responsive navbar collapse*/
+@media (max-width: 990px) {
+	.navbar-collapse {
+		background-color: #0f0f27;
+		padding: 10px;
+		border-radius: 10px;
+	}
+	
+}
