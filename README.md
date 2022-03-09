@@ -82,7 +82,7 @@
 
 ``First of all I want to apologize if my English is bad because I am here speaking with the help of a google translator``
 
-This project is an bootstrap template that I created based on the inspiration I got from one of the tutorials on youtube 
+This project is a landing page that i created because in that time i was bored and then i create this template by using framework bootstrap 5
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -91,6 +91,7 @@ This project is an bootstrap template that I created based on the inspiration I 
 ### Built With
 
 * [Bootstrap 5](https://bootstrap.com/)
+* [Fontawesome]('https://fontawesome.com/')
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
