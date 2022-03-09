@@ -25,6 +25,10 @@ body {
 	transition: .5s;
 }
 
+.card-input {
+	
+}
+
 @media (max-width: 990px) {
 	.input-2 {
 		position: absolute;
@@ -51,7 +55,7 @@ body {
 
 /*jumbotron*/
 .lead, .jumbotron h1 {
-	text-shadow: 1px 1px 1px black;
+	text-shadow: 6px 2px 4px black;
 }
 /*akhir jumbotron*/
 
@@ -62,6 +66,12 @@ body {
 	/*text-shadow: 1px 1px 1px black;*/
 	/*border: 1px solid white;*/
 	box-shadow: 2px 3px 7px -2px white;
+}
+
+.card-daftar {
+	background: #fff !important;
+	color: black;
+	box-shadow: none;
 }
 .card img {
 	/*border: 1px solid white;*/
