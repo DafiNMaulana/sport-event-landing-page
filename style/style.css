@@ -3,6 +3,8 @@ body {
 	background-size: cover;
 }
 
+
+
 /*navbar*/
 .bg-daftar {
 	border: 2px solid white;
@@ -17,39 +19,92 @@ body {
 }
 .input, .input-2 {
 	border: 1px solid white;
-	outline: none;
-	background: none;
-	color: white;
-	width: 0;
 	opacity: 0;
-	transition: .5s;
+	width: 0;
+	outline: none;
+	border-radius: 50px;
+	background-color: transparent;
+	color: #fff;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-top: 5px;
+	transition: .4s;
 }
 
-.card-input {
-	
+.search-transition {
+	width: 200px;
+	opacity: 1;
 }
+
+
 
 @media (max-width: 990px) {
-	.input-2 {
+	.input {
 		position: absolute;
-		top: 60px;
-		left: 60px;
+		top: 63px;
+		left: 168px;
+	}
+}
+@media (max-width: 899px) {
+	.input {
+		position: absolute;
+		top: 65px;
+		left: 130px;
+	}
+}
+@media (max-width: 793px) {
+	.input {
+		position: absolute;
+		top: 65px;
+		left: 80px;
+	}
+}
+@media (max-width: 767px) {
+	.input {
+		position: absolute;
+		top: 65px;
+		left: 160px;
+	}
+}
+@media (max-width: 729px) {
+	.input {
+		position: absolute;
+		top: 65px;
+		left: 140px;
+	}
+}
+@media (max-width: 680px) {
+	.input {
+		position: absolute;
+		top: 65px;
+		left: 120px;
+	}
+}
+
+
+@media (max-width: 610px) {
+	.input {
+		position: absolute;
+		top: 65px;
+		left: 80px;
 	}
 }
 
 @media (max-width: 580px) {
 	.input {
-		display: none !important;
-	}
-	.input-2 {
-		width: 0;
-		opacity: 0;
 		position: absolute;
-		top: 60px;
-		left: 37px;
+		top: 63px;
+		left: 60px;
 	}
-	
 }
+@media (max-width: 575px) {
+	.input {
+		position: absolute;
+		top: 63px;
+		left: 45px;
+	}
+}
+
 /*akhir navbar*/
 
 
