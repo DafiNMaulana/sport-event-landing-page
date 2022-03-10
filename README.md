@@ -91,7 +91,7 @@ This project is a landing page that i created because in that time i was bored a
 ### Built With
 
 * [Bootstrap 5](https://bootstrap.com/)
-* [Fontawesome]('https://fontawesome.com/')
+* [Fontawesome](https://fontawesome.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
